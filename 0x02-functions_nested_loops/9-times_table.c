@@ -4,9 +4,11 @@
  * times_table - Prints the 9 times table, starting with 0
  * Return: empty output
  */
+
 void times_table(void)
 {
 	int v, w, x, y, z;
+
 	for (v = 0; v <= 9; v++)
 	{
 	for (w = 0; w <= 9; w++)
