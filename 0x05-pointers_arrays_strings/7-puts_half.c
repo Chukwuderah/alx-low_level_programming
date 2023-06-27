@@ -20,6 +20,6 @@ void puts_half(char *str)
 	if ((longey % 2) == 1)
 		n = ((longey + 1) / 2);
 
-	for (a = n; str[0] != '\0'; a++)
+	for (a = n; str[a] != '\0'; a++)
 		_putchar('\n');
 }
