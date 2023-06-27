@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - a function that prints n elements of an array of integer
  * @a: array name
@@ -12,7 +13,7 @@ void print_array(int *a, int n)
 
 	for (p = 0; p < (n - 1); p++)
 	{
-		printf("%d,", a[p]);
+		printf("%d, ", a[p]);
 	}
 	if (p == (n - 1))
 	{
