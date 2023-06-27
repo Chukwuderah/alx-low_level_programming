@@ -11,7 +11,6 @@ void print_rev(char *s)
 	int longey = 0;
 	int o;
 
-
 	while (*s != '\0')
 	{
 		longey++;
@@ -21,7 +20,7 @@ void print_rev(char *s)
 	for (o = longey; o > 0; o--)
 	{
 		_putchar(*s);
-		s--
+		s--;
 	}
 
 	_putchar('\n');
