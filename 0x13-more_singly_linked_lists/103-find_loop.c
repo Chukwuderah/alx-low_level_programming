@@ -23,13 +23,13 @@ listint_t *find_listint_loop(listint_t *head)
 		if (quick == steady)
 		{
 			steady = head;
-			
+
 			while (steady != quick)
 			{
 				steady = steady->next;
 				quick = quick->next;
 			}
-			
+
 			return (quick);
 		}
 	}
