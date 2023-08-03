@@ -10,7 +10,7 @@ void print_binary(unsigned long int n)
 	int a, c = 0;
 	unsigned long int crt;
 
-	for (a = 63; a >= 0; a++)
+	for (a = 63; a >= 0; a--)
 	{
 		crt = n >> a;
 
