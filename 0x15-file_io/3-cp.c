@@ -12,6 +12,7 @@ void close_file(int f);
  *
  * Return: A pointer to the newly-allocated buffer.
  */
+
 char *create_buffer(char *file)
 {
 	char *buffer;
@@ -32,6 +33,7 @@ char *create_buffer(char *file)
  * close_file - Closes file descriptors.
  * @f: The file descriptor to be closed.
  */
+
 void close_file(int f)
 {
 	int s;
@@ -40,7 +42,7 @@ void close_file(int f)
 
 	if (s == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close f %d\n", f);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", f);
 		exit(100);
 	}
 }
@@ -57,6 +59,7 @@ void close_file(int f)
  *              If file_to cannot be created or written to - exit code 99.
  *              If file_to or file_from cannot be closed - exit code 100.
  */
+
 int main(int argc, char *argv[])
 {
 	int f, t, r, wr;
