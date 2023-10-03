@@ -1,1 +1,1 @@
-ALx SE 0x14. C - Bit manipulation
+ALX SE 0x14. C - Bit manipulation
